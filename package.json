@@ -1,0 +1,22 @@
+{
+  "name": "cosmwasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/testCosmwasm.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cosmwasm": "^1.1.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
